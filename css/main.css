@@ -68,6 +68,7 @@ body{
 .menux{
   margin-top: -35px;
 }
+
 .menu-m{ 
   position: absolute;
   top: 0;
@@ -91,7 +92,44 @@ body{
   text-shadow: 0px 0px 25px rgba(255, 139, 46, 1);
   font-size: 30px;
 }
+.menu-m ul li a:hover{ 
+  text-shadow: 10px 15px 45px rgba(255, 139, 46, 1); 
+}
 
+ 
+.bd{
+  background-image: url(../images/bd.png);  
+  background-position: top center;
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  min-height: 1800px; 
+  margin-top: -310px;
+}
 
-
+.bd:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  margin-top: 55px;
+  margin-left: -230px;
+  background-image: url(../images/be-1.png);  
+  background-size: 100% ;
+  background-repeat: no-repeat; 
+}
+.bd:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  margin-top: 55px;
+  margin-right: -230px;
+  background-image: url(../images/be-2.png);  
+  background-size: 100% ;
+  background-repeat: no-repeat; 
+}
 
