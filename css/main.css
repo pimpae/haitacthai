@@ -17,7 +17,12 @@
   font-style: normal;
   font-variant:initial;
 } 
- 
+@font-face{
+  font-family: CelestiaSemibold;
+  src: url(../fonts/Celestia-Antiqua-Std-Semibold.otf);
+  font-style: normal;
+  font-variant:initial;
+} 
 
  
 /*html {
@@ -242,10 +247,11 @@ body{
   margin-right: -35px;
   position: absolute;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 3px;
   text-shadow: 0px 0px 25px rgba(255, 139, 46, 1);
   /*background-color: rgb(255,255,255,.25);*/
   padding: 12px 30px;
+  font-family: CelestiaItalic;
 }
 .btnxf img{ 
   width: 220px;
@@ -261,7 +267,7 @@ body{
   border: 3px solid #35231b; 
   border-top: none;
   margin-top: 51px;
-  padding: 20px 15px 25px 15px;
+  padding: 20px 15px 15px 15px;
   width: 170px;
   margin-right: -36px;
 }
@@ -321,4 +327,29 @@ body{
   padding-bottom: 15px;
   margin-bottom: 15px;
   min-height: 50px;
+}
+
+.btn-log{
+  border: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-shadow: 0px 0px 25px rgba(255, 139, 46, 1);
+  font-family: CelestiaItalic;
+  text-transform: uppercase;
+  color: #ffd2a2;
+  background: url(../images/btn.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 6px 10px;
+}
+.btn-log:hover{
+  color: #fff; 
+}
+
+a.forget{
+  font-family: CelestiaSemibold;
+  color: #5d503e;
+  font-size: 14px;
+  text-decoration: underline;
 }
