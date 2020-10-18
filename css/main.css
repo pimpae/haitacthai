@@ -659,3 +659,34 @@ a.forget{
   width: 50%;
   margin-top: -120px;
 }
+.logo-s{
+  opacity: 1;
+  margin-top: -65px;
+}
+
+.set-aa{ 
+  margin-top: 21px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1040;
+}
+.modal-content{
+  background-color: transparent;
+}
+.modal-body {
+  background-image: url(../images/Server.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.modal-body .server-m{
+  padding: 20px 60px;
+}
+.modal-body .server-m h3{
+  font-family: pslkanda-moextra;
+  color: #c6aa8d; 
+  margin-bottom: 10px;
+}
