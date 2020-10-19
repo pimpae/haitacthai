@@ -144,7 +144,7 @@ body{
   width: 90%;
 }
 .bd{
-  background-image: url(../images/bd.png);  
+  background-image: url(../images/bd.webp);  
   background-position: top center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -677,7 +677,7 @@ a.forget{
   background-color: transparent;
 }
 .modal-body {
-  background-image: url(../images/Server.png);
+  background-image: url(../images/Server.webp);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -689,4 +689,43 @@ a.forget{
   font-family: pslkanda-moextra;
   color: #c6aa8d; 
   margin-bottom: 10px;
+}
+
+.sev{
+  font-family: CelestiaItalic;
+  padding: 16px 0 0 50px;
+  font-size: 18px;
+  color: #ffdbc1;
+  width: 198px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: 198px  80px;
+}
+
+
+.s1{
+  background-image: url(../images/s1-1.png);
+}
+.s1:hover{
+  background-image: url(../images/s1-2.png);  
+}
+
+.s2{
+  background-image: url(../images/s2-1.png);
+}
+.s2:hover{
+  background-image: url(../images/s2-2.png);  
+}
+.s1-o{
+  background-image: url(../images/s1-1o.png);
+}
+.s1-o:hover{
+  background-image: url(../images/s1-2o.png);  
+}
+
+.s2-o{
+  background-image: url(../images/s2-1o.png);
+}
+.s2-o:hover{
+  background-image: url(../images/s2-2o.png);  
 }
