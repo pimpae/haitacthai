@@ -138,7 +138,7 @@ body{
 
 */
 .menux{
-  margin-bottom: -270px;
+  margin-bottom: -15%;
 }
 .cop{
   width: 90%;
@@ -220,6 +220,15 @@ body{
   color: #f5c899;
 }
 
+.img-p{
+  font-family: CelestiaItalic;
+  color: #cfa57a;
+  text-align: center;
+  margin-top: -66px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
 
 
 
@@ -261,7 +270,7 @@ body{
 }
  
 .login-f{
- 
+  position: absolute;
   background-color: #191108; 
   right: 0;
   width: 100%;
@@ -269,11 +278,27 @@ body{
   border-top: none;
   margin-top: 51px;
   padding: 20px 15px 15px 15px;
-  width: 200px;
-  margin-left: 85px;
+  width: 200px; 
   border-bottom: none;
   height: 241px;
+  margin-right: -40px; 
 }
+
+.login-f:after{
+  content: "";
+  position: absolute;
+  background-color: #1f1305;
+  height: 15px;
+  right: 0; 
+  border: 2px solid #39220a;  
+  border-right: none;
+  margin-top: 15px; 
+  width: 245px;
+  margin-right: -32px;
+  z-index: -1;
+}
+
+
 
 .login-f input{
   background-color: #221406;
@@ -292,20 +317,6 @@ body{
   outline: none;
 }
 
-
-.login-f:after{
-  content: "";
-  position: absolute;
-  background-color: #1f1305;
-  height: 15px;
-  right: 0; 
-  border: 2px solid #39220a;  
-  border-right: none;
-  margin-top: 15px; 
-  width: 245px;
-  margin-right: -70px;
-  z-index: -1;
-}
 
 
 
@@ -374,12 +385,12 @@ a.forget{
   text-align: center;
   background: url(../images/btt.png);
   background-size: 221px 100%;
-  background-repeat: no-repeat;
-  display: block;
-  width: 100%;
-  padding: 5px;
-  margin-left: 74px; 
-
+  background-repeat: no-repeat; 
+  width: 221px;
+  padding: 5px; 
+  position: absolute;
+  right: 0;
+  margin-right: -46px;
 }
 
 .txt-menu a{
@@ -501,6 +512,8 @@ a.forget{
   z-index: -2;
 }
 
+
+
 .login-f2 input{
   background-color: #221406;
   border:none;
@@ -527,8 +540,7 @@ a.forget{
   background: url(../images/btt2.png);
   background-size: 221px 100%;
   background-repeat: no-repeat;
-  display: block;
-  width: 100%;
+  width: 221px;
   padding: 5px;
   margin-left: -61px;  
 }
@@ -590,9 +602,10 @@ a.forget{
   border-top: none; 
   padding: 20px 15px 15px 15px;
   width: 200px;
-  margin-left: 85px;
+  margin-right: -35px;
   border-bottom: none;
   height: 241px;
+  position: absolute;
 } 
 
 .div-f:after{
@@ -605,7 +618,7 @@ a.forget{
   border-right: none;
   margin-top: 15px; 
   width: 245px;
-  margin-right: -70px;
+  margin-right: -38px;
   z-index: -1;
   margin-top: 220px;
 }
@@ -667,7 +680,7 @@ a.forget{
 .set-aa{ 
   margin-top: 21px;
   position: absolute;
-  top: 50%;
+  margin-top: 0px;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -684,11 +697,29 @@ a.forget{
 }
 .modal-body .server-m{
   padding: 20px 60px;
+  height: 620px;
+  overflow: auto;
 }
 .modal-body .server-m h3{
   font-family: pslkanda-moextra;
   color: #c6aa8d; 
   margin-bottom: 10px;
+}
+ 
+.modal-body .server-m::-webkit-scrollbar {
+  width: 20px;
+}
+.modal-body .server-m::-webkit-scrollbar-track {
+  background: #231609; 
+}
+.modal-body .server-m::-webkit-scrollbar-thumb {
+  
+  background: #826b4d; 
+  border: 2px solid #d5b280;
+}
+
+.modal-body .server-m::-webkit-scrollbar-thumb:hover {
+  background: #826b4d; 
 }
 
 .sev{
@@ -700,6 +731,41 @@ a.forget{
   height: 80px;
   background-repeat: no-repeat;
   background-size: 198px  80px;
+  text-transform: capitalize;
+}
+.sev.s1 p{
+  position: absolute;
+  font-family: CelestiaItalic;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: -40px;
+  color: #5de2e0;
+}
+
+.sev.s2 p{
+  position: absolute;
+  font-family: CelestiaItalic;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: -40px;
+}
+
+
+.sev.s1-o p{
+  position: absolute;
+  font-family: CelestiaItalic;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: -40px;
+  color: #5de2e0;
+}
+
+.sev.s2-o p{
+  position: absolute;
+  font-family: CelestiaItalic;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: -40px;
 }
 
 
@@ -711,10 +777,10 @@ a.forget{
 }
 
 .s2{
-  background-image: url(../images/s2-1.png);
+  background-image: url(../images/s1-1.png);
 }
 .s2:hover{
-  background-image: url(../images/s2-2.png);  
+  background-image: url(../images/s1-2.png);  
 }
 .s1-o{
   background-image: url(../images/s1-1o.png);
@@ -724,8 +790,8 @@ a.forget{
 }
 
 .s2-o{
-  background-image: url(../images/s2-1o.png);
+  background-image: url(../images/s1-1o.png);
 }
 .s2-o:hover{
-  background-image: url(../images/s2-2o.png);  
+  background-image: url(../images/s1-2o.png);  
 }
